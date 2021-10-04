@@ -1,0 +1,38 @@
+.banner-container {
+  min-height: 100vh;
+  width: 100%;
+}
+.img-banner {
+  width: 65%;
+}
+.left-part {
+  width: 50%;
+  height: 100%;
+}
+.left-part .titleInSpan {
+  color: #5cb1c3;
+}
+
+.right-part {
+  width: 50%;
+  height: 100%;
+}
+.tutorials-row {
+  width: 100%;
+}
+.tutorial-text {
+  color: white;
+  background-color: #5cb1c3;
+}
+.course-inside-card {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  border: 1px solid rgb(158, 157, 157);
+}
+.btnStyle {
+  background-color: #5cb1c3 !important;
+  border: 1px solid #5cb1c3 !important;
+}
+.btnStyle:hover {
+  background-color: #3f8694 !important;
+}

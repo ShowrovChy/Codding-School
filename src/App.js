@@ -1,24 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import NavBar from "./components/NavBar/NavBar";
+import Home from "./components/Home/Home";
+import Tutorials from "./components/Tutorials/Tutorials";
+import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
+import Exercises from "./components/Exercises/Exercises";
+import NotFound from "./components/NotFound/NotFound";
+import Reference from "./components/Reference/Reference";
+import TutorialDetails from "./components/TutorialDetails/TutorialDetails";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <NavBar></NavBar>
+      <Switch>
+        <Route path="/home">
+          <Home></Home>
+        </Route>
+        <Route path="/about">
+          <About></About>
+        </Route>
+        <Route path="/tutorials">
+          <Tutorials></Tutorials>
+        </Route>
+        <Route path="/exercises">
+          <Exercises></Exercises>
+        </Route>
+        <Route path="/reference">
+          <Reference></Reference>
+        </Route>
+        <Route path="/tutorial/:tutorialId">
+          <TutorialDetails></TutorialDetails>
+        </Route>
+        <Route path="/home/:tutorialId">
+          <TutorialDetails></TutorialDetails>
+        </Route>
+        <Route exact path="/">
+          <Home></Home>
+        </Route>
+        <Route exact path="*">
+          <NotFound></NotFound>
+        </Route>
+      </Switch>
+      <Footer></Footer>
+    </Router>
   );
 }
 

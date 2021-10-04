@@ -1,0 +1,5 @@
+.course-inside-card {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  border: 1px solid rgb(158, 157, 157);
+}

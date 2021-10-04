@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+<!-- 
+
+   --- Hello Welcome to Codding School Learning Platform..---
+
+    1/ This website is Totally Free For learning Programming.
+    2/ Here we  arranged So many tutorials ,So  it's more helping for learner. 
+    3/ Our Tutorial are  organized , new learners Can easily follow the tutorials one after one.
+    4/ Some of part  in under Construction ,Hope soon these will be fixed soon, till then just follow what are  available now in our website..
+    5/ We have linked CodePen for realtime practising.. this is separate website . we added it just for you , to safe your valuable time.
+    
+     ---------Happy Learning with Codding School--------------
+      -->
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +81,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ -->
