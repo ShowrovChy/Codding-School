@@ -77,7 +77,7 @@ const Footer = () => {
           <div className="d-flex justify-content-around fs-2 ">
             <a className="text-secondary" href="https://www.facebook.com/">
               <FontAwesomeIcon icon={faFacebookF} />
-            </a>{" "}
+            </a>
             <a
               className="text-secondary"
               href="https://www.instagram.com/ah__showrov/"
