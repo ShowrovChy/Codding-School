@@ -6,6 +6,7 @@ import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useHistory } from "react-router";
 import heroImage from "../../Images/heroimage.png";
+import bgImg from "../../Images/bgImg.jpg";
 import "./Home.css";
 
 const Home = () => {
@@ -89,6 +90,48 @@ const Home = () => {
             </Col>
           ))}
         </Row>
+        <div className="text-center my-5">
+          <Button className="btn-lg">
+            {" "}
+            <Link to="/tutorials" className="text-white text-decoration-none">
+              {" "}
+              See all Tutorials{" "}
+            </Link>{" "}
+          </Button>
+        </div>
+        <div
+          className="img-div"
+          style={{
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.705)),url(${bgImg})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            margin: "100px 0",
+          }}
+        >
+          <div className="text-white text-center">
+            <h1
+              style={{
+                fontSize: "3.4em",
+                fontWeight: "700",
+                fontFamily: "sans-serif",
+              }}
+            >
+              More than 500 Online Tutorials
+            </h1>
+            <p
+              style={{
+                fontSize: "1.5em",
+                fontFamily: "sans-serif",
+                marginTop: "18px",
+              }}
+            >
+              You`re guaranteed to find something that`s right for you.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

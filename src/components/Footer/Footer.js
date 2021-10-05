@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { Col, FormControl, InputGroup, Row } from "react-bootstrap";
-import { Button } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import {
   faMapMarkerAlt,
@@ -50,7 +49,7 @@ const Footer = () => {
                 <b>Address:</b> 106, C Block, East Street, New York, BMC, US
               </p>
             </li>
-            <li class="list-group-item text-secondary  bg-light border-0   d-flex">
+            <li class="list-group-item text-secondary   bg-light border-0   d-flex">
               <span className="me-2">
                 <FontAwesomeIcon icon={faEnvelope} />
               </span>{" "}
@@ -75,20 +74,30 @@ const Footer = () => {
             <h5 className="mb-5 ">Follow Us</h5>
           </Link>
           <div className="d-flex justify-content-around fs-2 ">
-            <a className="text-secondary" href="https://www.facebook.com/">
+            <a
+              className="text-secondary"
+              Target="_blank"
+              href="https://www.facebook.com/"
+            >
               <FontAwesomeIcon icon={faFacebookF} />
             </a>
             <a
               className="text-secondary"
+              Target="_blank"
               href="https://www.instagram.com/ah__showrov/"
             >
               <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a className="text-secondary" href="https://twitter.com/home">
+            <a
+              className="text-secondary"
+              Target="_blank"
+              href="https://twitter.com/home"
+            >
               <FontAwesomeIcon icon={faTwitter} />
             </a>
             <a
               className="text-secondary"
+              Target="_blank"
               href="https://www.youtube.com/results?search_query=programming+hero"
             >
               <FontAwesomeIcon icon={faYoutube} />
@@ -96,6 +105,7 @@ const Footer = () => {
           </div>
         </Col>
       </Row>
+      <hr />
       <p className="py-3  text-center text-secondary">
         <small>Copyright 2021 © Codding School.com All Rights Reserved.</small>
       </p>

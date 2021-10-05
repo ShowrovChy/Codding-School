@@ -1,6 +1,7 @@
 import React from "react";
 import practice from "../../Images/practice.png";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Exercises = () => {
   return (
@@ -23,7 +24,7 @@ const Exercises = () => {
             {" "}
             <a
               className="text-decoration-none text-info"
-              target="_blank"
+              Target="_blank"
               href="https://codepen.io/pen/"
             >
               Practice Here{" "}
