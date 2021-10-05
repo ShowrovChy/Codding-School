@@ -28,7 +28,6 @@ const Home = () => {
   const sendToTutorials = () => {
     history.push("/tutorials");
   };
-  /* banner-container d-flex mt-3 mb-5 p-3 */
   return (
     <div className="mb-5 ">
       <Row className=" align-items-center gy-5 mb-5 banner-container   ">
@@ -88,7 +87,6 @@ const Home = () => {
                 </div>
               </div>
             </Col>
-            // <Course key={course.id} course={course}></Course>
           ))}
         </Row>
       </div>
