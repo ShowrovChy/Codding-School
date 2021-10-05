@@ -19,7 +19,7 @@ const Footer = () => {
   return (
     <footer className="w-100  bg-light  pt-5 ">
       <Row className="upper w-100 px-4">
-        <Col md={6}>
+        <Col md={5}>
           <Link className=" text-decoration-none" to="/about">
             <h5>About</h5>
           </Link>
@@ -35,7 +35,7 @@ const Footer = () => {
             </p>
           </div>
         </Col>
-        <Col md={3}>
+        <Col md={4}>
           <Link className=" text-decoration-none" to="/contact">
             <h5 className="ps-3">Contact Us</h5>
           </Link>
